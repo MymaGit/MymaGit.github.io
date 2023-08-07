@@ -1,58 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Mustofa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-header h1 {
-    font-size: 2.5rem;
-    margin: 0;
-}
+<body>
+  <header>
+    <h1>Mustofa's Portofolio</h1>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello, I am Mustofa. Welcome to my portfolio website. I am a passionate web developer with a keen interest in
+      creating beautiful and functional websites.</p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of project 1 goes here.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of project 2 goes here.</p>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, you can reach me at:</p>
+    <ul>
+      <li>Email: mustofa@example.com</li>
+      <li>Phone: (123) 456-7890</li>
+    </ul>
+  </section>
+</body>
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    border-bottom: 2px solid #fff;
-}
-
-section {
-    padding: 40px;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.project {
-    margin-bottom: 30px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
+</html>
